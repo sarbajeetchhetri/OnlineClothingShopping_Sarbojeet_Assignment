@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#2D123456"
+    tools:context="Fragments_Shopping.RegisterFragment_Shopping">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:src="@drawable/logo"/>
+
+
+
+    <EditText
+        android:id="@+id/username-register"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/username"
+        android:hint="Username"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/password-register"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="#123456"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Register"
+        android:id="@+id/btnregister"
+        android:textSize="20sp"
+        />
+</LinearLayout>

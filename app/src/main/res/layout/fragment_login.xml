@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D123456"
+    android:orientation="vertical"
+    tools:context="Fragments_Shopping.LoginFragment_Shopping">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/usrname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:drawableLeft="@drawable/username"
+        android:gravity="center"
+        android:hint="Username"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/password"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#123456"
+        android:text="Login"
+        android:id="@+id/btnlogin"
+        android:textSize="20sp"
+        />
+</LinearLayout>
